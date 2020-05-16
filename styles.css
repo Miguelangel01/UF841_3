@@ -1,0 +1,117 @@
+html{
+    margin: 0;
+}
+header{
+    margin: 0;
+}
+nav{
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  body{
+      margin: 0;
+  }
+
+  section{
+      margin: 0;
+
+  }
+
+  .parallax {
+    background-image: url('images/section1.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .texth1{
+      padding-top: 100px;
+      margin: 0;
+      color: white;
+      text-align: center;
+      font-size: 50px;
+  }
+
+  .texth2{
+      padding: 25px;
+      padding-bottom: 100px;
+      margin: 0;
+      color: white;
+      text-align: center;
+  }
+
+  .apartados{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  
+  div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
